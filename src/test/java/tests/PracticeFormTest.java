@@ -56,6 +56,8 @@ public class PracticeFormTest {
         $(".table-responsive").shouldHave(text("pic1.jpg"));
         $(".table-responsive").shouldHave(text("Street 123"));
         $(".table-responsive").shouldHave(text("NCR Delhi"));
+        // Задержка для скриншота (3 секунды)
+        sleep(5000);
         $("#closeLargeModal").click();
     }
 }
